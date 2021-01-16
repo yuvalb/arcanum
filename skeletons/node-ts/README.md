@@ -1,0 +1,1 @@
+A minimal typescript node application leveraging ts-node
