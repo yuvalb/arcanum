@@ -1,6 +1,6 @@
 {
   "name": "skeleton-node-ts",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "An empty typescript node application",
   "main": "dist/index.js",
   "files": [
@@ -9,12 +9,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p .",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
     "prepublish": "tsc"
   },
   "author": "author <author@email.com> (https://author.url/)",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^16.4.13",
+    "prettier": "^2.3.2",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.3.5"
   }
 }

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-'use strict';
+"use strict";
 
-require('ts-node').register({ typeCheck: false });
+require("ts-node").register({ typeCheck: false });
 
 process.title = "node-ts-cli";
 
-require('../lib/init');
+require("../lib/init");
